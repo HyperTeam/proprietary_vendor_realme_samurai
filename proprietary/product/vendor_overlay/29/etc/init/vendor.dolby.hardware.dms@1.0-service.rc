@@ -1,0 +1,10 @@
+service dms-hal-1-0 /vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+    interface vendor.dolby.hardware.dms@1.0::IDms default
+    class hal
+    disabled
+    user media
+    group audio media
+on boot
+    mkdir /data/vendor/dolby 0770 media media
+    restorecon -D -F /vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+    restart dms-hal-1-0
