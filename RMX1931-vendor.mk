@@ -23,12 +23,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
     vendor/realme/RMX1931/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
     vendor/realme/RMX1931/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
-    vendor/realme/RMX1931/proprietary/etc/permissions/com.dolby.dax2appUI.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.dolby.dax2appUI.xml \
+    vendor/realme/RMX1931/proprietary/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.dolby.daxservice.xml \
+    vendor/realme/RMX1931/proprietary/etc/permissions/com.motorola.dolby.dolbyui.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.dolby.dolbyui.features.xml \
     vendor/realme/RMX1931/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/realme/RMX1931/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/realme/RMX1931/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
     vendor/realme/RMX1931/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
-    vendor/realme/RMX1931/proprietary/etc/sysconfig/hiddenapi-whitelist-com.dolby.dax2appUI.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.dolby.dax2appUI.xml \
+    vendor/realme/RMX1931/proprietary/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml \
     vendor/realme/RMX1931/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/realme/RMX1931/proprietary/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
     vendor/realme/RMX1931/proprietary/framework/dolby_dax.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dolby_dax.jar \
@@ -175,22 +176,26 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/dolby/dax-default.xml \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdapparamstorage.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libdapparamstorage_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdapparamstorage_ds1se.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libstagefrightdolby.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libswdap.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/soundfx/libswdap_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libswdap_ds1se.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/vendor.dolby.hardware.dms@1.0.so \
     vendor/realme/RMX1931/proprietary/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdapparamstorage.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libdapparamstorage_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdapparamstorage_ds1se.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdlbdsservice.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libstagefrightdolby.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libstagefrightdolby.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libdlbdsservice_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdlbdsservice_ds1se.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libswdap.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/soundfx/libswdap_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libswdap_ds1se.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/vendor.dolby.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vendor.dolby.hardware.dms@1.0-impl.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vendor.dolby.hardware.dms@1.0.so \
     vendor/realme/RMX1931/proprietary/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.btconfigstore@1.0.so
 
 PRODUCT_PACKAGES += \
-    DaxUI \
-    daxService \
+    MotoDolbyV3 \
     WfdService \
+    daxService \
     QtiTelephonyService \
     atfwd \
     uceShimService \

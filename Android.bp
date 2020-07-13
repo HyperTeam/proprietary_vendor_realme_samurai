@@ -20,19 +20,9 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "DaxUI",
+	name: "MotoDolbyV3",
 	owner: "realme",
-	apk: "proprietary/app/DaxUI/DaxUI.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "daxService",
-	owner: "realme",
-	apk: "proprietary/app/daxService/daxService.apk",
+	apk: "proprietary/app/MotoDolbyV3/MotoDolbyV3.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -43,6 +33,17 @@ android_app_import {
 	name: "WfdService",
 	owner: "realme",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "daxService",
+	owner: "realme",
+	apk: "proprietary/priv-app/daxService/daxService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
