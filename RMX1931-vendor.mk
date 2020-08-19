@@ -173,24 +173,36 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/realme/RMX1931/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/bin/hw/vendor.dolby.hardware.dms@1.0-service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/vendor.dolby.hardware.dms@1.0-service \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/bin/hw/vendor.qti.hardware.iop@2.0-service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/vendor.qti.hardware.iop@2.0-service \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/dolby/dax-default.xml \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdapparamstorage.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libdapparamstorage_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdapparamstorage_ds1se.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libqti-iopd-client.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libqti-iopd.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libqti-iopd.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libstagefrightdolby.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libswdap.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/soundfx/libswdap_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libswdap_ds1se.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/vendor.dolby.hardware.dms@1.0.so \
     vendor/realme/RMX1931/proprietary/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/vendor.qti.hardware.iop@1.0.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/vendor.qti.hardware.iop@2.0.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdapparamstorage.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libdapparamstorage_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdapparamstorage_ds1se.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdlbdsservice.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libdlbdsservice_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdlbdsservice_ds1se.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libqti-iopd-client.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libqti-iopd.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libqti-iopd.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libswdap.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/soundfx/libswdap_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libswdap_ds1se.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/vendor.dolby.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vendor.dolby.hardware.dms@1.0-impl.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vendor.dolby.hardware.dms@1.0.so \
-    vendor/realme/RMX1931/proprietary/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.btconfigstore@1.0.so
+    vendor/realme/RMX1931/proprietary/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.btconfigstore@1.0.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vendor.qti.hardware.iop@1.0.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vendor.qti.hardware.iop@2.0.so
 
 PRODUCT_PACKAGES += \
     MotoDolbyV3 \
