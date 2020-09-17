@@ -20,9 +20,9 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "MotoDolbyV3",
+	name: "MotoWaves",
 	owner: "realme",
-	apk: "proprietary/app/MotoDolbyV3/MotoDolbyV3.apk",
+	apk: "proprietary/app/MotoWaves/MotoWaves.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -30,9 +30,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "WfdService",
+	name: "WavesService",
 	owner: "realme",
-	apk: "proprietary/priv-app/WfdService/WfdService.apk",
+	apk: "proprietary/priv-app/WavesService/WavesService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -41,9 +41,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "daxService",
+	name: "WfdService",
 	owner: "realme",
-	apk: "proprietary/priv-app/daxService/daxService.apk",
+	apk: "proprietary/priv-app/WfdService/WfdService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

@@ -23,16 +23,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
     vendor/realme/RMX1931/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
     vendor/realme/RMX1931/proprietary/etc/init/wfdservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/wfdservice.rc \
-    vendor/realme/RMX1931/proprietary/etc/permissions/com.dolby.daxservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.dolby.daxservice.xml \
-    vendor/realme/RMX1931/proprietary/etc/permissions/com.motorola.dolby.dolbyui.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.dolby.dolbyui.features.xml \
+    vendor/realme/RMX1931/proprietary/etc/permissions/com.motorola.motowaves.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motowaves.features.xml \
     vendor/realme/RMX1931/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
+    vendor/realme/RMX1931/proprietary/etc/permissions/privapp-permissions-com.waves.maxxservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.waves.maxxservice.xml \
     vendor/realme/RMX1931/proprietary/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/realme/RMX1931/proprietary/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_libpermissions.xml \
     vendor/realme/RMX1931/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
-    vendor/realme/RMX1931/proprietary/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml \
+    vendor/realme/RMX1931/proprietary/etc/sysconfig/hiddenapi-whitelist-com.motorola.motowaves.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.motowaves.xml \
     vendor/realme/RMX1931/proprietary/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/realme/RMX1931/proprietary/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/wfdconfigsink.xml \
-    vendor/realme/RMX1931/proprietary/framework/dolby_dax.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dolby_dax.jar \
     vendor/realme/RMX1931/proprietary/framework/tcmclient.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/tcmclient.jar \
     vendor/realme/RMX1931/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/realme/RMX1931/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
@@ -172,11 +171,10 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/product/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/realme/RMX1931/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/realme/RMX1931/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.1.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/bin/hw/vendor.dolby.hardware.dms@1.0-service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/vendor.dolby.hardware.dms@1.0-service \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/bin/hw/vendor.qti.hardware.iop@2.0-service:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/bin/hw/vendor.qti.hardware.iop@2.0-service \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/dolby/dax-default.xml \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/init/vendor.dolby.hardware.dms@1.0-service.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/init/vendor.dolby.hardware.dms@1.0-service.rc \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/maxx_conf.ini:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/maxx_conf.ini \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/maxx_default.mps:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/maxx_default.mps \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/permissions/android.hardware.vulkan.compute.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/permissions/android.hardware.vulkan.compute.xml \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/permissions/android.hardware.vulkan.level.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/permissions/android.hardware.vulkan.level.xml \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/etc/permissions/android.hardware.vulkan.version.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/etc/permissions/android.hardware.vulkan.version.xml \
@@ -190,26 +188,27 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/egl/libq3dtools_esx.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/hw/vulkan.msmnile.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/hw/vulkan.msmnile.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libAndroidAlgSys.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libAndroidAlgSys.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libCB.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libCB.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libMAM2_3-AlgFX-Coretex_A9.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libMAM2_3-AlgFX-Coretex_A9.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libOpenCL.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libOpenCL.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libVkLayer_q3dtools.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libadreno_utils.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libadreno_utils.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libandroidaudioeffect_Oreo.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libandroidaudioeffect_Oreo.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libc++_shared.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libc++_shared.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libc2d30_bltlib.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdapparamstorage.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libdapparamstorage_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libdapparamstorage_ds1se.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libfastcvopt.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libfastcvopt.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libgpudataproducer.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libgsl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libgsl.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libhdr_tm.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libhdr_tm.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libllvm-glnext.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libllvm-qcom.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libmaxxaudioeffectapi.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libmaxxaudioeffectapi.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libmaxxeffectwrapper.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libmaxxeffectwrapper.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libqseed3.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libqseed3.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libqti-iopd-client.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libqti-iopd.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libqti-iopd.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libstagefrightdolby.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libstagefrightdolby.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libswdap.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/soundfx/libswdap_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libswdap_ds1se.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/vendor.dolby.hardware.dms@1.0.so \
+    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/soundfx/libmaxxeffect-cembedded.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/soundfx/libmaxxeffect-cembedded.so \
     vendor/realme/RMX1931/proprietary/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/vendor.qti.hardware.iop@2.0.so \
@@ -227,10 +226,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libVkLayer_q3dtools.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libadreno_utils.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libc2d30_bltlib.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdapparamstorage.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libdapparamstorage_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdapparamstorage_ds1se.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libdlbdsservice.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdlbdsservice.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libdlbdsservice_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libdlbdsservice_ds1se.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libfastcvopt.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libgpudataproducer.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libgsl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libgsl.so \
@@ -240,18 +235,14 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libqseed3.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libqseed3.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libqti-iopd-client.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libqti-iopd.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libqti-iopd.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libswdap.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/soundfx/libswdap_ds1se.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/soundfx/libswdap_ds1se.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/vendor.dolby.hardware.dms@1.0-impl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vendor.dolby.hardware.dms@1.0-impl.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/vendor.dolby.hardware.dms@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vendor.dolby.hardware.dms@1.0.so \
     vendor/realme/RMX1931/proprietary/lib64/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/vendor.qti.hardware.iop@2.0.so
 
 PRODUCT_PACKAGES += \
-    MotoDolbyV3 \
+    MotoWaves \
+    WavesService \
     WfdService \
-    daxService \
     QtiTelephonyService \
     atfwd \
     uceShimService \
