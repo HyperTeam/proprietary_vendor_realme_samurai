@@ -200,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libfastcvopt.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libfastcvopt.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libgpudataproducer.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libgsl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libgsl.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libhdr_tm.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libhdr_tm.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libllvm-glnext.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libllvm-glnext.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libllvm-qcom.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libllvm-qcom.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib/libmaxxaudioeffectapi.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib/libmaxxaudioeffectapi.so \
@@ -229,7 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libfastcvopt.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libgpudataproducer.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libgsl.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libgsl.so \
-    vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libhdr_tm.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libllvm-glnext.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libllvm-qcom.so \
     vendor/realme/RMX1931/proprietary/product/vendor_overlay/29/lib64/libqseed3.so:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/29/lib64/libqseed3.so \
