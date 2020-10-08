@@ -20,27 +20,6 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "MotoWaves",
-	owner: "realme",
-	apk: "proprietary/app/MotoWaves/MotoWaves.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "WavesService",
-	owner: "realme",
-	apk: "proprietary/priv-app/WavesService/WavesService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-}
-
-android_app_import {
 	name: "WfdService",
 	owner: "realme",
 	apk: "proprietary/priv-app/WfdService/WfdService.apk",
