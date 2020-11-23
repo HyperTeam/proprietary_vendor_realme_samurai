@@ -244,7 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/bin/hw/vendor.oppo.hardware.hypnus@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.hypnus@1.0-service \
     vendor/realme/RMX1931/proprietary/vendor/bin/hw/vendor.oppo.hardware.ktv@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.ktv@1.0-service \
     vendor/realme/RMX1931/proprietary/vendor/bin/hw/vendor.oppo.hardware.lmvibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.lmvibrator@1.0-service \
-    vendor/realme/RMX1931/proprietary/vendor/bin/hw/vendor.oppo.hardware.nfc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.nfc@1.0-service \
     vendor/realme/RMX1931/proprietary/vendor/bin/hw/vendor.oppo.hardware.vibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.vibrator@1.0-service \
     vendor/realme/RMX1931/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/realme/RMX1931/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
@@ -277,7 +276,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/bin/pd-mapper:$(TARGET_COPY_OUT_VENDOR)/bin/pd-mapper \
     vendor/realme/RMX1931/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/realme/RMX1931/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
-    vendor/realme/RMX1931/proprietary/vendor/bin/pnscr:$(TARGET_COPY_OUT_VENDOR)/bin/pnscr \
     vendor/realme/RMX1931/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
     vendor/realme/RMX1931/proprietary/vendor/bin/power_off_alarm:$(TARGET_COPY_OUT_VENDOR)/bin/power_off_alarm \
     vendor/realme/RMX1931/proprietary/vendor/bin/qdcmss:$(TARGET_COPY_OUT_VENDOR)/bin/qdcmss \
@@ -518,7 +516,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc \
     vendor/realme/RMX1931/proprietary/vendor/etc/init/vendor.oppo.hardware.ktv@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.ktv@1.0-service.rc \
     vendor/realme/RMX1931/proprietary/vendor/etc/init/vendor.oppo.hardware.lmvibrator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.lmvibrator@1.0-service.rc \
-    vendor/realme/RMX1931/proprietary/vendor/etc/init/vendor.oppo.hardware.nfc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.nfc@1.0-service.rc \
     vendor/realme/RMX1931/proprietary/vendor/etc/init/vendor.oppo.hardware.vibrator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.vibrator@1.0-service.rc \
     vendor/realme/RMX1931/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
     vendor/realme/RMX1931/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
@@ -544,21 +541,8 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/realme/RMX1931/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/realme/RMX1931/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/realme/RMX1931/proprietary/vendor/etc/libnfc-nxp-pnscr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp-pnscr.conf \
     vendor/realme/RMX1931/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/libnfc-mtp-SN100.conf_19781:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-mtp-SN100.conf_19781 \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/libnfc-nci.conf_19781:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nci.conf_19781 \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/libnfc_beijing_config.conf_19781:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_beijing_config.conf_19781 \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/libnfc_chongqing_config.conf_19781:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_chongqing_config.conf_19781 \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/libnfc_default_config.conf_19781:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_default_config.conf_19781 \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/libnfc_guangzhou_config.conf_19781:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_guangzhou_config.conf_19781 \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/libnfc_nanning_config.conf_19781:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_nanning_config.conf_19781 \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/libnfc_shanghai_config.conf_19781:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shanghai_config.conf_19781 \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/libnfc_shenzhen_config.conf_19781:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_shenzhen_config.conf_19781 \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/libnfc_suzhou_config.conf_19781:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_suzhou_config.conf_19781 \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/libnfc_xiamen_config.conf_19781:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_xiamen_config.conf_19781 \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/libnfc_zhengzhou_config.conf_19781:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc_zhengzhou_config.conf_19781 \
-    vendor/realme/RMX1931/proprietary/vendor/etc/nfc/nfc_conf_ref:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/nfc_conf_ref \
+    vendor/realme/RMX1931/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/realme/RMX1931/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/realme/RMX1931/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/realme/RMX1931/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
@@ -628,22 +612,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/etc/sensors/config/stk3331_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/stk3331_0.json \
     vendor/realme/RMX1931/proprietary/vendor/etc/sensors/config/sx932x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sx932x_0.json \
     vendor/realme/RMX1931/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_bootup.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_bootup.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_ese_disableIso.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIso.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_ese_disableIsoRead.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_ese_disableIsoRead.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_nfcon.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_nfcon.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_pnx_chr.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_chr.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_pnx_cui.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_cui.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_pnx_ese_3.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_3.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_pnx_ese_aclog.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_aclog.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_pnx_ese_cplc.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_cplc.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_pnx_ese_fabkey.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_fabkey.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_pnx_ese_free.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_free.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_pnx_ese_keyset.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_keyset.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_pnx_ese_sn.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ese_sn.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_pnx_ndi.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_ndi.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_pnx_pcv.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_pcv.pnscr \
-    vendor/realme/RMX1931/proprietary/vendor/etc/sn100u_pnx_sst.pnscr:$(TARGET_COPY_OUT_VENDOR)/etc/sn100u_pnx_sst.pnscr \
     vendor/realme/RMX1931/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/realme/RMX1931/proprietary/vendor/etc/tunings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/tunings.txt \
     vendor/realme/RMX1931/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
@@ -1907,7 +1875,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.hypnus@1.0.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.oppo.hardware.ktv@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.ktv@1.0.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.oppo.hardware.lmvibrator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.lmvibrator@1.0.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.oppo.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.nfc@1.0.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.oppo.hardware.radio.opporadio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.radio.opporadio@1.0.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
