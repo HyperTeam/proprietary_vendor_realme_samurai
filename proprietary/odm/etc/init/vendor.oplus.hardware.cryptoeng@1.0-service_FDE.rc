@@ -1,7 +1,7 @@
 ##/*************************************************************
 ## ** File: - vendor.oppo.hardware.cryptoeng@1.0-service.rc
-## ** VENDOR_EDIT
-## ** Copyright (C), 2016-2020, OPPO Mobile Comm Corp., Ltd 
+## ** OPLUS_FEATURE_CRYPTOENG
+## ** Copyright (C), 2016-2020, OPLUS Mobile Comm Corp., Ltd 
 ## ** 
 ## ** Description : 1.0
 ## **           This is a common file 
@@ -22,7 +22,10 @@ on post-fs-data
     mkdir /data/vendor_de/0 0770 system system
     mkdir /data/vendor_de/0/cryptoeng 0770 system system
 
-service hal_cryptoeng_oppo /vendor/bin/hw/vendor.oppo.hardware.cryptoeng@1.0-service
-    class main
+service hal_cryptoeng_oppo /odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service
+    class hal
     user system
     group system input sdcard_rw sdcard_r
+
+on property:sys.boot_completed=1
+    setprop vendor.oplus.cryptoeng.need_init 1
