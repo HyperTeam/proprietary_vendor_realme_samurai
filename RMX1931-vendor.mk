@@ -31,9 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc \
     vendor/realme/RMX1931/proprietary/odm/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc \
     vendor/realme/RMX1931/proprietary/odm/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_ODM)/etc/libnfc-nxp.conf \
-    vendor/realme/RMX1931/proprietary/odm/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.bin \
-    vendor/realme/RMX1931/proprietary/odm/etc/wifi/bin_version_realme:$(TARGET_COPY_OUT_ODM)/etc/wifi/bin_version_realme \
-    vendor/realme/RMX1931/proprietary/odm/etc/wifi/bin_version:$(TARGET_COPY_OUT_ODM)/etc/wifi/bin_version \
     vendor/realme/RMX1931/proprietary/odm/lib/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib/liboemcrypto.so \
     vendor/realme/RMX1931/proprietary/odm/lib/libsn100u_fw.so:$(TARGET_COPY_OUT_ODM)/lib/libsn100u_fw.so \
     vendor/realme/RMX1931/proprietary/odm/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_ODM)/lib/mediadrm/libwvdrmengine.so \
@@ -49,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.cryptoeng@1.0.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/vendor.oplus.hardware.orms@1.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.orms@1.0.so \
-    vendor/realme/RMX1931/proprietary/odm/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_ODM)/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so \
     vendor/realme/RMX1931/proprietary/odm/vendor/firmware/cryptoeng.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b00 \
     vendor/realme/RMX1931/proprietary/odm/vendor/firmware/cryptoeng.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b01 \
     vendor/realme/RMX1931/proprietary/odm/vendor/firmware/cryptoeng.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b02 \
@@ -590,8 +586,13 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/realme/RMX1931/proprietary/vendor/etc/tunings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/tunings.txt \
     vendor/realme/RMX1931/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
+    vendor/realme/RMX1931/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg_cmcc.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg_cmcc.ini \
     vendor/realme/RMX1931/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
     vendor/realme/RMX1931/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/wifi/bdwlan_19688.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19688.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/wifi/bdwlan_19781.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdwlan_19781.bin \
+    vendor/realme/RMX1931/proprietary/vendor/etc/wifi/bin_version:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bin_version \
+    vendor/realme/RMX1931/proprietary/vendor/etc/wifi/bin_version_realme:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bin_version_realme \
     vendor/realme/RMX1931/proprietary/vendor/etc/wifi/fstman.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/fstman.ini \
     vendor/realme/RMX1931/proprietary/vendor/etc/wifi/sar-vendor-cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/sar-vendor-cmd.xml \
     vendor/realme/RMX1931/proprietary/vendor/etc/wifi/wigig_p2p_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wigig_p2p_supplicant.conf \
@@ -1656,6 +1657,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.oppo.hardware.hypnus@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.hypnus@1.0.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.oppo.hardware.ktv@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.ktv@1.0.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.oppo.hardware.radio.opporadio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.radio.opporadio@1.0.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.qti.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.0.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/vendor.qti.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.gnss@1.1.so \
