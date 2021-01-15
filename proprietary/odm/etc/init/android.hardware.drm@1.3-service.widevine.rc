@@ -19,7 +19,7 @@ service vendor.move_data_sh /system_ext/bin/move_widevine_data.sh
 #QinLing@MULTIMEDIA.MMSERVER.DRM, 2020/06/05, move service to odm
 #service vendor.drm-widevine-hal-1-3 /vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 #else /* OPLUS_FEATURE_DRM_WIDEVINEL3 */
-service vendor.drm-widevine-hal-1-3 /vendor/bin/hw/android.hardware.drm@1.3-service.widevine
+service vendor.drm-widevine-hal-1-3 /odm/bin/hw/android.hardware.drm@1.3-service.widevine
 #endif /* OPLUS_FEATURE_DRM_WIDEVINEL3 */
     interface android.hardware.drm@1.0::ICryptoFactory widevine
     interface android.hardware.drm@1.0::IDrmFactory widevine
