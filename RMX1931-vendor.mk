@@ -1122,6 +1122,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libaudioEngineerTest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioEngineerTest.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudio_log_utils.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioalsa.so \
+    vendor/realme/RMX1931/proprietary/vendor/lib64/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavservices_minijail.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatterylistener.so \
