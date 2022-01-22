@@ -132,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libarcsoft_smart_denoise.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_smart_denoise.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib64/libaudioEngineerTest.so \
-    vendor/realme/RMX1931/proprietary/odm/lib64/libbinder.so:$(TARGET_COPY_OUT_ODM)/lib64/libbinder.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib64/libc++_shared.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G2.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
