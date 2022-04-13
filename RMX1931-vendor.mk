@@ -55,9 +55,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so \
     vendor/realme/RMX1931/proprietary/odm/lib/soundfx/libhaptic_effect.so:$(TARGET_COPY_OUT_ODM)/lib/soundfx/libhaptic_effect.so \
     vendor/realme/RMX1931/proprietary/odm/lib/vendor.oplus.hardware.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.bluetooth_audio@1.0.so \
+    vendor/realme/RMX1931/proprietary/odm/lib64/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G2.default.so \
+    vendor/realme/RMX1931/proprietary/odm/lib64/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G3.default.so \
+    vendor/realme/RMX1931/proprietary/odm/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.oplus.hardware.bluetooth_audio@1.0-impl.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so:$(TARGET_COPY_OUT_ODM)/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libaudioEngineerTest.so:$(TARGET_COPY_OUT_ODM)/lib64/libaudioEngineerTest.so \
+    vendor/realme/RMX1931/proprietary/odm/lib64/libgf_hal_G2.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G2.so \
+    vendor/realme/RMX1931/proprietary/odm/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G3.so \
+    vendor/realme/RMX1931/proprietary/odm/lib64/libgf_hal_G5.so:$(TARGET_COPY_OUT_ODM)/lib64/libgf_hal_G5.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_ODM)/lib64/liboemcrypto.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libormshalclient.so:$(TARGET_COPY_OUT_ODM)/lib64/libormshalclient.so \
     vendor/realme/RMX1931/proprietary/odm/lib64/libqsee_keybox_ca.so:$(TARGET_COPY_OUT_ODM)/lib64/libqsee_keybox_ca.so \
@@ -82,6 +88,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/odm/vendor/firmware/cryptoeng.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b06 \
     vendor/realme/RMX1931/proprietary/odm/vendor/firmware/cryptoeng.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.b07 \
     vendor/realme/RMX1931/proprietary/odm/vendor/firmware/cryptoeng.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/cryptoeng.mdt \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b00 \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b01 \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b02 \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b03 \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b04 \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b05 \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b06 \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b07 \
+    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
     vendor/realme/RMX1931/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
     vendor/realme/RMX1931/proprietary/system_ext/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephonyservice.xml \
     vendor/realme/RMX1931/proprietary/system_ext/framework/QtiTelephonyServicelibrary.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/QtiTelephonyServicelibrary.jar \
@@ -435,15 +450,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/etc/wifi/wigig_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wigig_supplicant.conf \
     vendor/realme/RMX1931/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/realme/RMX1931/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
-    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b00 \
-    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b01 \
-    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b02 \
-    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b03 \
-    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b04 \
-    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b05 \
-    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b06 \
-    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.b07 \
-    vendor/realme/RMX1931/proprietary/vendor/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodixfp.mdt \
     vendor/realme/RMX1931/proprietary/vendor/etc/camera/engineer_camera_config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/engineer_camera_config \
     vendor/realme/RMX1931/proprietary/vendor/etc/camera/fb_default:$(TARGET_COPY_OUT_VENDOR)/etc/camera/fb_default \
     vendor/realme/RMX1931/proprietary/vendor/etc/camera/oppo_camera_algo_switch_config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oppo_camera_algo_switch_config \
@@ -855,9 +861,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/lib64/hw/audio.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.msmnile.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/hw/camera.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.qcom.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/hw/com.qti.chi.override.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qti.chi.override.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/hw/fingerprint.goodix_G2.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix_G2.default.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/hw/fingerprint.goodix_G3.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix_G3.default.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/hw/fingerprint.goodix_G5.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.goodix_G5.default.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/hw/hwcomposer.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.msmnile.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/hw/sound_trigger.primary.msmnile.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sound_trigger.primary.msmnile.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/hw/vendor.oppo.hardware.hypnus@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.oppo.hardware.hypnus@1.0-impl.so \
@@ -1025,9 +1028,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofencing.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libgf_hal_G2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_G2.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libgf_hal_G3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_G3.so \
-    vendor/realme/RMX1931/proprietary/vendor/lib64/libgf_hal_G5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_G5.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnss.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
     vendor/realme/RMX1931/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
