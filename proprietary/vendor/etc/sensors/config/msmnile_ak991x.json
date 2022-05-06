@@ -2,7 +2,7 @@
   "config":
   {
     "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK"],
-    "soc_id": ["339", "18501", "18503", "18119","19081","19781", "19688"]
+    "soc_id": ["339"]
   },
   "ak0991x_0_platform":{
     "owner": "sns_ak0991x",
@@ -27,14 +27,11 @@
         "data": "0"
       },
       "num_rail":{ "type": "int", "ver": "0",
-        "data": "2"
+        "data": "1"
       },
       "rail_on_state":{ "type": "int", "ver": "0",
         "data": "2"
       },
-      "vdd_rail":{ "type": "str", "ver": "0",
-        "data": "/pmic/client/sensor_vdd"
-      },      
       "vddio_rail":{ "type": "str", "ver": "0",
         "data": "/pmic/client/sensor_vddio"
       },
@@ -45,10 +42,10 @@
     ".orient":{
       "owner": "sns_ak0991x",
       "x":{ "type": "str", "ver": "0",
-        "data": "-x"
+        "data": "+x"
       },
       "y":{ "type": "str", "ver": "0",
-        "data": "-y"
+        "data": "+y"
       },
       "z":{ "type": "str", "ver": "0",
         "data": "+z"

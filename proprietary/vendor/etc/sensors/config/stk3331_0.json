@@ -2,7 +2,7 @@
   "config":
   {
     "hw_platform": ["QRD", "MTP", "Dragon", "Surf", "HDK"],
-    "soc_id": ["291", "246", "305", "321", "336", "341","19081","19781","19688"]
+    "soc_id": ["339"]
   },
   "stk3331_0":{
     "owner": "sns_stk3x3x",

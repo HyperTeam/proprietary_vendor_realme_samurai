@@ -1,29 +1,26 @@
 {
   "config":{
-    "hw_platform": ["HDK"],
-    "soc_id": ["339", "361"]
+    "hw_platform": ["MTP", "Dragon", "Surf", "HDK"],
+    "soc_id": ["339"]
   },
-  "lsm6dso_0_platform":{
-    "owner": "lsm6dso",
+  "lsm6ds3c_0_platform":{
+    "owner": "lsm6ds3c",
     ".config":{
-      "owner": "lsm6dso",
+      "owner": "lsm6ds3c",
       "bus_type":{ "type": "int", "ver": "0",
-        "data": "3"
-      },
-      "bus_instance":{ "type": "int", "ver": "0",
         "data": "1"
       },
-      "slave_config":{ "type": "int", "ver": "0",
-        "data": "106"
+      "bus_instance":{ "type": "int", "ver": "0",
+        "data": "2"
       },
-      "i3c_address":{ "type": "int", "ver": "0",
-        "data": "10"
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "0"
       },
       "min_bus_speed_khz":{ "type": "int", "ver": "0",
-        "data": "400"
+        "data": "0"
       },
       "max_bus_speed_khz":{ "type": "int", "ver": "0",
-        "data": "12500"
+        "data": "9600"
       },
       "reg_addr_type":{ "type": "int", "ver": "0",
         "data": "0"
@@ -31,8 +28,8 @@
       "dri_irq_num":{ "type": "int", "ver": "0",
         "data": "132"
       },
-      "irq_pull_type":{ "type": "int", "ver": "0",
-        "data": "3"
+      "irq_pull_type":{ "type": "int", "ver": "1",
+        "data": "0"
       },
       "irq_is_chip_pin":{ "type": "int", "ver": "0",
         "data": "1"
@@ -40,11 +37,11 @@
       "irq_drive_strength":{ "type": "int", "ver": "0",
         "data": "0"
       },
-      "irq_trigger_type":{ "type": "int", "ver": "0",
+      "irq_trigger_type":{ "type": "int", "ver": "1",
         "data": "0"
       },
       "num_rail":{ "type": "int", "ver": "0",
-        "data": "1"
+        "data": "2"
       },
       "rail_on_state":{ "type": "int", "ver": "0",
         "data": "2"
@@ -52,28 +49,37 @@
       "vddio_rail":{ "type": "str", "ver": "0",
         "data": "/pmic/client/sensor_vddio"
       },
+      "vdd_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vdd"
+      },
       "rigid_body_type":{ "type": "int", "ver": "0",
-      "data": "0"
+        "data": "0"
+      },
+      "min_odr":{ "type": "int", "ver": "0",
+        "data": "20"
+      },
+      "max_odr":{ "type": "int", "ver": "0",
+        "data": "500"
       }
     },
     ".orient":{
-      "owner": "lsm6dso",
+      "owner": "lsm6ds3c",
       "x":{ "type": "str", "ver": "0",
-        "data": "-x"
+        "data": "+y"
       },
       "y":{ "type": "str", "ver": "0",
-        "data": "-y"
+        "data": "+x"
       },
       "z":{ "type": "str", "ver": "0",
-        "data": "+z"
+        "data": "-z"
       }
     },
     ".gyro":{
-      "owner": "lsm6dso",
+      "owner": "lsm6ds3c",
       ".fac_cal":{
-        "owner": "lsm6dso",
+        "owner": "lsm6ds3c",
         ".corr_mat":{
-          "owner": "lsm6dso",
+          "owner": "lsm6ds3c",
           "0_0":{ "type": "flt", "ver": "0",
             "data": "1.0"
           },
@@ -103,7 +109,7 @@
           }
         },
         ".bias":{
-          "owner": "lsm6dso",
+          "owner": "lsm6ds3c",
           "x":{ "type": "flt", "ver": "0",
             "data": "0.0"
           },
@@ -117,11 +123,11 @@
       }
     },
     ".accel":{
-      "owner": "lsm6dso",
+      "owner": "lsm6ds3c",
       ".fac_cal":{
-        "owner": "lsm6dso",
+        "owner": "lsm6ds3c",
         ".corr_mat":{
-          "owner": "lsm6dso",
+          "owner": "lsm6ds3c",
           "0_0":{ "type": "flt", "ver": "0",
             "data": "1.0"
           },
@@ -151,7 +157,7 @@
           }
         },
         ".bias":{
-          "owner": "lsm6dso",
+          "owner": "lsm6ds3c",
           "x":{ "type": "flt", "ver": "0",
             "data": "0.0"
           },
@@ -165,18 +171,18 @@
       }
     },
     ".temp":{
-      "owner": "lsm6dso",
+      "owner": "lsm6ds3c",
       ".fac_cal":
       {
-        "owner": "lsm6dso",
+        "owner": "lsm6ds3c",
         ".scale":{
-          "owner": "lsm6dso",
+          "owner": "lsm6ds3c",
           "x":{ "type": "flt", "ver": "0",
             "data": "1.0"
           }
         },
         ".bias":{
-          "owner": "lsm6dso",
+          "owner": "lsm6ds3c",
           "x":{ "type": "flt", "ver": "0",
             "data": "0.0"
           }
@@ -184,11 +190,11 @@
       }
     },
     ".md":{
-      "owner": "lsm6dso",
+      "owner": "lsm6ds3c",
       ".config":{
-        "owner": "lsm6dso",
+        "owner": "lsm6ds3c",
         "thresh":{ "type": "flt", "ver": "0",
-            "data": "0.6132"
+            "data": "1.22645"
         },
         "disable":{ "type": "int", "ver": "0",
           "data": "0"
@@ -199,7 +205,7 @@
       }
     },
     ".placement":{
-      "owner": "lsm6dso",
+      "owner": "lsm6ds3c",
       "0":{ "type": "flt", "ver": "0",
         "data": "0.1"
       },
