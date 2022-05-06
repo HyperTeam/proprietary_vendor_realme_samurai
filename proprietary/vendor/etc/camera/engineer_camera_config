@@ -1,475 +1,475 @@
 [
 	{
-		"VendorTag": "com.oppo.eng.flash.light.support",
+		"VendorTag": "com.oplus.engineercamera.configure.flash.light.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.second.front.camera.support",
+		"VendorTag": "com.oplus.engineercamera.configure.second.front.camera.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.rear.single.flash.light.support",
+		"VendorTag": "com.oplus.engineercamera.configure.rear.single.flash.light.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.flash.light.front.support",
+		"VendorTag": "com.oplus.engineercamera.configure.flash.light.front.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.sfr.force.jpeg.support",
+		"VendorTag": "com.oplus.engineercamera.configure.sfr.force.jpeg.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.flash.light.calibrate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.flash.light.calibrate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.flash.light.auto.calibrate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.flash.light.auto.calibrate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.second.back.camera.support",
+		"VendorTag": "com.oplus.engineercamera.configure.second.back.camera.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.third.rear.camera.support",
+		"VendorTag": "com.oplus.engineercamera.configure.third.rear.camera.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.fourth.rear.camera.support",
+		"VendorTag": "com.oplus.engineercamera.configure.fourth.rear.camera.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.new.triple.calibrate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.new.triple.calibrate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.new.triple.verificate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.new.triple.verificate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.interference.video.support",
+		"VendorTag": "com.oplus.engineercamera.configure.interference.video.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.ois.support",
+		"VendorTag": "com.oplus.engineercamera.configure.ois.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.focus.motor.support",
+		"VendorTag": "com.oplus.engineercamera.configure.focus.motor.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.ae.sync.support",
+		"VendorTag": "com.oplus.engineercamera.configure.ae.sync.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.ois.noise.support",
+		"VendorTag": "com.oplus.engineercamera.configure.ois.noise.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.pdaf.calibrate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.pdaf.calibrate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.laser.focus.support",
+		"VendorTag": "com.oplus.engineercamera.configure.laser.focus.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.third.rear.camera.ois.support",
+		"VendorTag": "com.oplus.engineercamera.configure.third.rear.camera.ois.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.eis.support",
+		"VendorTag": "com.oplus.engineercamera.configure.eis.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.aperture.support",
+		"VendorTag": "com.oplus.engineercamera.configure.aperture.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.tof.support",
+		"VendorTag": "com.oplus.engineercamera.configure.tof.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.tof.depth.calibrate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.tof.depth.calibrate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.tof.calibrate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.tof.calibrate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.tof.verificate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.tof.verificate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.ir.camera.support",
+		"VendorTag": "com.oplus.engineercamera.configure.ir.camera.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.ir.camera.support",
+		"VendorTag": "com.oplus.engineercamera.configure.ir.camera.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.dual.calibrate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.dual.calibrate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.dual.verificate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.dual.verificate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.triple.calibrate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.triple.calibrate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.triple.verificate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.triple.verificate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.zoom.loop.support",
+		"VendorTag": "com.oplus.engineercamera.configure.zoom.loop.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.arcsoft.calibrate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.arcsoft.calibrate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.arcsoft.verificate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.arcsoft.verificate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.aftersale.top.tip.array",
+		"VendorTag": "com.oplus.engineercamera.configure.aftersale.top.tip.array",
 		"Type": "Int32",
 		"Count": "2",
 		"Value": "543,280"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.aftersale.bottom.tip.array",
+		"VendorTag": "com.oplus.engineercamera.configure.aftersale.bottom.tip.array",
 		"Type": "Int32",
 		"Count": "2",
 		"Value": "543,1180"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.triple.calibrate.aftersale.focus.lens",
+		"VendorTag": "com.oplus.engineercamera.configure.triple.calibrate.aftersale.focus.lens",
 		"Type": "Int32",
 		"Count": "1",
 		"Value": "3000"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.dual.calibrate.aftersale.support",
+		"VendorTag": "com.oplus.engineercamera.configure.dual.calibrate.aftersale.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.dual.arcsoft.calibrate.aftersale.support",
+		"VendorTag": "com.oplus.engineercamera.configure.dual.arcsoft.calibrate.aftersale.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.triple.calibrate.aftersale.support",
+		"VendorTag": "com.oplus.engineercamera.configure.triple.calibrate.aftersale.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "1"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.calibration.rear.size",
+		"VendorTag": "com.oplus.engineercamera.configure.calibration.rear.size",
 		"Type": "Int32",
 		"Count": "2",
 		"Value": "4608x3456"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.calibrate.second.rear.size",
+		"VendorTag": "com.oplus.engineercamera.configure.calibrate.second.rear.size",
 		"Type": "Int32",
 		"Count": "2",
 		"Value": "2304x1728"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.calibrate.third.rear.size",
+		"VendorTag": "com.oplus.engineercamera.configure.calibrate.third.rear.size",
 		"Type": "Int32",
 		"Count": "2",
 		"Value": "4000x3000"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.portrait.size",
+		"VendorTag": "com.oplus.engineercamera.configure.portrait.size",
 		"Type": "Int32",
 		"Count": "2",
 		"Value": "4000x3000"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.ae.sync.rear.size",
+		"VendorTag": "com.oplus.engineercamera.configure.ae.sync.rear.size",
 		"Type": "Int32",
 		"Count": "2",
 		"Value": "4608x3456"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.ae.sync.second.rear.size",
+		"VendorTag": "com.oplus.engineercamera.configure.ae.sync.second.rear.size",
 		"Type": "Int32",
 		"Count": "2",
 		"Value": "3264x2448"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.ae.sync.third.rear.size",
+		"VendorTag": "com.oplus.engineercamera.configure.ae.sync.third.rear.size",
 		"Type": "Int32",
 		"Count": "2",
 		"Value": "4000x3000"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.dual.calibration.input.yuv.support",
+		"VendorTag": "com.oplus.engineercamera.configure.dual.calibration.input.yuv.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.dual.calibration.buffer.lost.support",
+		"VendorTag": "com.oplus.engineercamera.configure.dual.calibration.buffer.lost.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.aftersale.chart.size.array",
+		"VendorTag": "com.oplus.engineercamera.configure.aftersale.chart.size.array",
 		"Type": "Int32",
 		"Count": "4",
 		"Value": "143,320,943,1120"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.second.rear.flash.light.calibrate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.second.rear.flash.light.calibrate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.third.rear.flash.light.calibrate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.third.rear.flash.light.calibrate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.fourth.rear.flash.light.calibrate.support",
+		"VendorTag": "com.oplus.engineercamera.configure.fourth.rear.flash.light.calibrate.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.calibration.performance",
+		"VendorTag": "com.oplus.engineercamera.configure.calibration.performance",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.portrait.fullbody.support",
+		"VendorTag": "com.oplus.engineercamera.configure.portrait.fullbody.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.hidl.support",
+		"VendorTag": "com.oplus.engineercamera.configure.hidl.support",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.calibrate.project.name",
+		"VendorTag": "com.oplus.engineercamera.configure.calibrate.project.name",
 		"Type": "Byte",
 		"Count": "1",
 		"Value": "E"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.calibration.algo",
+		"VendorTag": "com.oplus.engineercamera.configure.calibration.algo",
 		"Type": "String",
 		"Count": "1",
 		"Value": "cp"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.calibration.params.name",
+		"VendorTag": "com.oplus.engineercamera.configure.calibration.params.name",
 		"Type": "String",
 		"Count": "1",
 		"Value": "CalibrationOppoC.json"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.verification.params.name",
+		"VendorTag": "com.oplus.engineercamera.configure.verification.params.name",
 		"Type": "String",
 		"Count": "1",
 		"Value": "VerificationOppoC.json"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.calibration.yshift",
+		"VendorTag": "com.oplus.engineercamera.configure.calibration.yshift",
 		"Type": "Float",
 		"Count": "1",
 		"Value": "10.15"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.calibration.zshift",
+		"VendorTag": "com.oplus.engineercamera.configure.calibration.zshift",
 		"Type": "Float",
 		"Count": "1",
 		"Value": "0"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.calibration.roll",
+		"VendorTag": "com.oplus.engineercamera.configure.calibration.roll",
 		"Type": "Float",
 		"Count": "1",
 		"Value": "1.45"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.oiscalibration.params.name",
+		"VendorTag": "com.oplus.engineercamera.configure.oiscalibration.params.name",
 		"Type": "String",
 		"Count": "1",
 		"Value": ""
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.oiscalibration.rear.size",
+		"VendorTag": "com.oplus.engineercamera.configure.oiscalibration.rear.size",
 		"Type": "Int32",
 		"Count": "2",
 		"Value": "4608x3456"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.oiscalibrate.second.rear.size",
+		"VendorTag": "com.oplus.engineercamera.configure.oiscalibrate.second.rear.size",
 		"Type": "Int32",
 		"Count": "2",
 		"Value": "2592x1940"
 	},
 
 	{
-		"VendorTag": "com.oppo.eng.camera.oisverification.params.name",
+		"VendorTag": "com.oplus.engineercamera.configure.oisverification.params.name",
 		"Type": "String",
 		"Count": "1",
 		"Value": ""
