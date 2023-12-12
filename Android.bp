@@ -95,17 +95,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SoterService",
-	owner: "realme",
-	apk: "proprietary/system_ext/app/SoterService/SoterService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "uceShimService",
 	owner: "realme",
 	apk: "proprietary/system_ext/app/uceShimService/uceShimService.apk",
@@ -207,13 +196,6 @@ dex_import {
 }
 
 dex_import {
-	name: "vendor.qti.hardware.soter-V1.0-java",
-	owner: "realme",
-	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.soter-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "vendor.qti.ims.factory-V1.0-java",
 	owner: "realme",
 	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar"],
@@ -285,15 +267,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "vendor.qti.hardware.servicetracker@1.2-service",
-	owner: "realme",
-	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.servicetracker@1.2-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "manifest_android.hardware.drm@1.3-service.widevine",
 	owner: "realme",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
@@ -306,15 +279,6 @@ prebuilt_etc_xml {
 	name: "manifest_engsensor",
 	owner: "realme",
 	src: "proprietary/odm/etc/vintf/manifest/manifest_engsensor.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	device_specific: true,
-}
-
-prebuilt_etc_xml {
-	name: "manifest_oplus_bluetooth_audio",
-	owner: "realme",
-	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_bluetooth_audio.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	device_specific: true,
